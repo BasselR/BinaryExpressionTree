@@ -1,7 +1,11 @@
 # BinaryExpressionTree
 This program has functions that create and use binary trees to represent mathematical expressions.
 
-These functions have been fully developed and optimized so that they have no memory leaks.
+To run the program, simply run the provided executable script 'main' in a linux environment.
+
+The main function provided contains a sample program, but you can create your own binary expression tree and interact with it by modifying the main function in 'expr.c' accordingly and then running the makefile with the command 'make'. 
+
+The functions in this program have been fully optimized so that they have no memory leaks (valgrind).
 
 The program allows you to:
 
@@ -13,5 +17,3 @@ The program allows you to:
 - Free the binary tree
 
 A header file is included, which outlines the Node struct. 
-
-A main function has also been provided, containing a sample expression tree.
